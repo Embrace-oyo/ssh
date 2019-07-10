@@ -8,9 +8,9 @@ const inquirer = require('inquirer')
 const node_ssh = require('node-ssh')
 const CONFIG = {
 	test: {
-		SERVER_PATH: "112.74.46.45", // ssh地址
+		SERVER_PATH: "xxx.xxx.xxx", // ssh地址
 		SSH_USER: "root", // ssh 用户
-		SSH_KEY: "RQ4p&uo5jnLytfmv", // ssh 密码 / private key文件地址
+		SSH_KEY: "12345678", // ssh 密码 / private key文件地址
 		PATH: '/var/www/test/sea/.nuxt', // 操作开始文件夹
 		PORT: '60022',
 	},
